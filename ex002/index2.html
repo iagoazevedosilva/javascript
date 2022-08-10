@@ -8,15 +8,18 @@
     
 </head>
 <body>
-    <h1>Manipulando Dados</h1>
+    <h1>Manipulando Dados - Parte 2</h1>
     <p>Manipulando os dados que são solicitados pela página</p>
 
     <script>
-
-    var valor = 1234.44  
+    //mostrando o valor da var em moeda BRL
+    var valor = 1234.44 
+     
     var nome = window.prompt('Qual é o seu nome? ')
+
     var idade = window.prompt('Quantos anos você tem? ')
-    document.writeln(`Seu nome é ${nome}, sua idade é ${idade}, e você ganha ${valor.toLocaleString('pt-br', {style:'currency', currency:'Brl'})} por mês`)
+
+    document.writeln(`Seu nome é ${nome}, sua idade é ${idade}, e você ganha ${valor.toLocaleString('pt-br', {style:'currency', currency:'Brl'})} por mês`) //novo comando para escrever a string na tela
         
     </script>  
 </body>
